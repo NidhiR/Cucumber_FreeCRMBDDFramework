@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Free CRM Login Test Scenario",
+        "description": "",
+        "id": "free-crm-login-feature;free-crm-login-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4505156270,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is already on Login Page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_already_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13479132,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "title of amzon file",
+            "match": {
+              "location": "LoginStepDefinition.title_of_amzon_file()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 239761841,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "search for diaper",
+            "match": {
+              "location": "LoginStepDefinition.search_for_diaper()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM Login Feature",
+    "description": "",
+    "id": "free-crm-login-feature",
+    "keyword": "Feature",
+    "uri": "/home/mayank/eclipse-workspace/FreeCRMBDDFramework/src/main/java/Features/login.features"
+  }
+]
